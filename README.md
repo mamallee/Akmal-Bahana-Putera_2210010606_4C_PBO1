@@ -26,20 +26,17 @@ public class Pelanggan {
 public class PelangganVIP extends Pelanggan {
     ...
 }
-```
+
 public class RentalMobil {
     ...
 }
 ```
 
 2. **Object** adalah instance dari class. Pada kode ini, `RentalMobil rental = new RentalMobil();
-` adalah contoh pembuatan object.
+ adalah contoh pembuatan object.
 
 ```bash
-rental.tambahMobil(new Mobil(platNomor, merk, tahun, hargaSewa));
-rental.tambahPelanggan(new Pelanggan(nama, alamat, nomorTelepon));
-rental.tambahPelanggan(new Pelanggan(nama, alamat, nomorTelepon));
-rental.tambahPelangganVIP(new PelangganVIP(namaVIP, alamatVIP, nomorTeleponVIP, diskon, nomorAnggota));
+RentalMobil rental = new RentalMobil();
 ```
 3. **Atribut** adalah variabel yang ada dalam class. Pada kode ini, `platNomor`, `merk`, `tahun`, `hargaSewa`, `nama`, `alamat` dan `nomorTelepon` adalah contoh atribut.
 
